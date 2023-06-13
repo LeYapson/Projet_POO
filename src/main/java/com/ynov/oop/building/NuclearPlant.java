@@ -2,7 +2,7 @@ package com.ynov.oop.building;
 
 import com.ynov.oop.globalparameter.HaveGlobalParameter;
 import com.ynov.oop.ressource.Cost;
-
+//the class containing the characteristics of a nuclear plant
 public class NuclearPlant extends Building {
 
   public NuclearPlant() {

@@ -3,11 +3,11 @@ package com.ynov.oop.building;
 import com.ynov.oop.globalparameter.HaveGlobalParameter;
 import com.ynov.oop.ressource.Cost;
 import com.ynov.oop.ressource.ResourceStockpile;
-
+//this class is used to create buildings when the player asks to create a type of building
 public class Builder {
 
   //verification of the quantity of resource of the warehouse
-  public boolean canBuild(ResourceStockpile resourceStockpile, Cost constructionCost) {
+  private  boolean canBuild(ResourceStockpile resourceStockpile, Cost constructionCost) {
     return resourceStockpile.getCredits().getValue() >= constructionCost.credits &&
       resourceStockpile.getPlants().getValue() >= constructionCost.plants &&
       resourceStockpile.getSteel().getValue() >= constructionCost.steel;

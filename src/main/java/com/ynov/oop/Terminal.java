@@ -1,7 +1,7 @@
 package com.ynov.oop;
 
 import java.util.Scanner;
-
+//this class manages the terminal display
 public class Terminal {
 
   private Gameloop game;

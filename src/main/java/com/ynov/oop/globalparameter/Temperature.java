@@ -1,7 +1,7 @@
 package com.ynov.oop.globalparameter;
 
 import com.ynov.oop.CheckVictoryCondition;
-
+//the class containing the characteristics of the generation of the temperature
 public class Temperature implements CheckVictoryCondition {
   private int value;
 

@@ -3,7 +3,7 @@ package com.ynov.oop;
 import com.ynov.oop.building.Builder;
 import com.ynov.oop.globalparameter.Planet;
 import com.ynov.oop.ressource.Warehouse;
-
+//this class manages the operation of each turn
 public class Gameloop implements EndTurnAction, CheckVictoryCondition {
 
   private Warehouse warehouse;

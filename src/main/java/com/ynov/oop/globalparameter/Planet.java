@@ -1,7 +1,7 @@
 package com.ynov.oop.globalparameter;
 
 import com.ynov.oop.CheckVictoryCondition;
-
+//the class containing the characteristics of the planet
 public class Planet implements CheckVictoryCondition, HaveGlobalParameter {
   private Oxygen oxygen;
   private Temperature temperature;

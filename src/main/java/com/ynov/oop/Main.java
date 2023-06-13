@@ -10,7 +10,7 @@ import com.ynov.oop.ressource.Credits;
 import com.ynov.oop.ressource.Plants;
 import com.ynov.oop.ressource.Steel;
 import com.ynov.oop.ressource.Warehouse;
-
+//this class manages the game launch
 public class Main {
 
   public static void main(String[] args) {

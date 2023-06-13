@@ -2,7 +2,7 @@ package com.ynov.oop.building;
 
 import com.ynov.oop.ressource.Cost;
 import com.ynov.oop.ressource.ResourceStockpile;
-
+//the class containing the characteristics of a Greenhouse
 public class Greenhouse extends Building {
 
   public Greenhouse() {
